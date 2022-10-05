@@ -33,7 +33,8 @@ namespace Demo_OTP
 
         public string TimeLeftStr => TimeLeft.ToString(@"\mm\:ss");
 
-        public string TimeLeftMsStr => TimeLeft.ToString(@"mm\:ss\.fff");
+       // public string TimeLeftMsStr => TimeLeft.ToString(@"mm\:ss\.fff");
+        public string TimeLeftMsStr => TimeLeft.ToString(@"mm\:ss");
 
         private void TimerTick(object sender, EventArgs e)
         {

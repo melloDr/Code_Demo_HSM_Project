@@ -42,7 +42,7 @@
             // 
             this.btLogin.Location = new System.Drawing.Point(300, 152);
             this.btLogin.Name = "btLogin";
-            this.btLogin.Size = new System.Drawing.Size(75, 23);
+            this.btLogin.Size = new System.Drawing.Size(125, 23);
             this.btLogin.TabIndex = 0;
             this.btLogin.Text = "Login";
             this.btLogin.UseVisualStyleBackColor = true;
@@ -52,7 +52,7 @@
             // 
             this.btVerify.Location = new System.Drawing.Point(300, 238);
             this.btVerify.Name = "btVerify";
-            this.btVerify.Size = new System.Drawing.Size(75, 23);
+            this.btVerify.Size = new System.Drawing.Size(125, 23);
             this.btVerify.TabIndex = 1;
             this.btVerify.Text = "Verify";
             this.btVerify.UseVisualStyleBackColor = true;
@@ -85,7 +85,7 @@
             // lbTimer
             // 
             this.lbTimer.AutoSize = true;
-            this.lbTimer.Location = new System.Drawing.Point(417, 153);
+            this.lbTimer.Location = new System.Drawing.Point(70, 190);
             this.lbTimer.Name = "lbTimer";
             this.lbTimer.Size = new System.Drawing.Size(11, 16);
             this.lbTimer.TabIndex = 5;

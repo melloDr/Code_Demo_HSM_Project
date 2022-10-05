@@ -25,8 +25,7 @@ namespace Demo_OTP
         {
 
         }
-
-        private void btLogin_Click(object sender, EventArgs e)
+        private void sendOTP()
         {
             String from, pass, messageBody;
             Random r = new Random();
@@ -64,8 +63,14 @@ namespace Demo_OTP
             timer.CountDownFinished += () =>
             {
                 randomCode = "0";
+                btLogin.Text = "Try again";
             };
             timer.StepMs = 77;
+        }
+
+        private void btLogin_Click(object sender, EventArgs e)
+        {
+            sendOTP();
         }
 
         private void btVerify_Click(object sender, EventArgs e)
