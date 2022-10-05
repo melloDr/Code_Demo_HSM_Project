@@ -56,7 +56,7 @@ namespace Demo_OTP
                 MessageBox.Show(ex.Message);
             }
             CountDownTimer timer = new CountDownTimer();
-            timer.SetTime(0, 10);
+            timer.SetTime(1, 10);
             timer.Start();
             timer.TimeChanged += () => lbTimer.Text = timer.TimeLeftMsStr;
             timer.CountDownFinished += () => lbTimer.Text = "The OTP code has expired. Please login to try again!";
