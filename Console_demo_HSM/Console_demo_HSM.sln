@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console_demo_HSM", "Console
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_OTP", "..\Demo_OTP\Demo_OTP.csproj", "{9A25857F-D2DE-45E8-8B6B-53D5608181C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectExternalAPI", "..\ConnectExternalAPI\ConnectExternalAPI.csproj", "{A2DCEBCE-15EB-486D-8B64-84FD86336564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScaleImage", "..\ScaleImage\ScaleImage.csproj", "{F8589CB2-98A8-41F2-9390-41A8D99271DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{9A25857F-D2DE-45E8-8B6B-53D5608181C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A25857F-D2DE-45E8-8B6B-53D5608181C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A25857F-D2DE-45E8-8B6B-53D5608181C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2DCEBCE-15EB-486D-8B64-84FD86336564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2DCEBCE-15EB-486D-8B64-84FD86336564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2DCEBCE-15EB-486D-8B64-84FD86336564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2DCEBCE-15EB-486D-8B64-84FD86336564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8589CB2-98A8-41F2-9390-41A8D99271DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8589CB2-98A8-41F2-9390-41A8D99271DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8589CB2-98A8-41F2-9390-41A8D99271DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8589CB2-98A8-41F2-9390-41A8D99271DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
