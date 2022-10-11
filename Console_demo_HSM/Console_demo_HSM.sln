@@ -9,7 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_OTP", "..\Demo_OTP\Dem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectExternalAPI", "..\ConnectExternalAPI\ConnectExternalAPI.csproj", "{A2DCEBCE-15EB-486D-8B64-84FD86336564}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScaleImage", "..\ScaleImage\ScaleImage.csproj", "{F8589CB2-98A8-41F2-9390-41A8D99271DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScaleImage", "..\ScaleImage\ScaleImage.csproj", "{F8589CB2-98A8-41F2-9390-41A8D99271DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aws4RequestSigner", "..\Aws4RequestSigner\Aws4RequestSigner.csproj", "{D2269A3E-02C8-41A0-9DFF-CBC0913B16E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAPMAWSV4Sign", "..\TestAPMAWSV4Sign\TestAPMAWSV4Sign.csproj", "{89771E11-8EEA-4B19-85A2-E32EA96040AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{F8589CB2-98A8-41F2-9390-41A8D99271DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8589CB2-98A8-41F2-9390-41A8D99271DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8589CB2-98A8-41F2-9390-41A8D99271DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2269A3E-02C8-41A0-9DFF-CBC0913B16E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2269A3E-02C8-41A0-9DFF-CBC0913B16E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2269A3E-02C8-41A0-9DFF-CBC0913B16E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2269A3E-02C8-41A0-9DFF-CBC0913B16E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89771E11-8EEA-4B19-85A2-E32EA96040AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89771E11-8EEA-4B19-85A2-E32EA96040AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89771E11-8EEA-4B19-85A2-E32EA96040AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89771E11-8EEA-4B19-85A2-E32EA96040AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
